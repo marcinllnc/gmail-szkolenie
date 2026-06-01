@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; }
+
+:root {
+  --gmail-blue: #1a73e8;
+  --gmail-blue-hover: #1557b0;
+  --gmail-blue-light: #d3e3fd;
+  --gmail-bg: #f6f8fc;
+  --gmail-sidebar-active-bg: #d3e3fd;
+  --gmail-sidebar-active-text: #041e49;
+  --gmail-search-bg: #eaf1fb;
+  --gmail-text: #202124;
+  --gmail-text-secondary: #444746;
+  --gmail-border: #e0e0e0;
+  --gmail-hover: #f2f6fc;
+  --gmail-selected: #c2dbff;
+  --gmail-unread-bg: #ffffff;
+  --gmail-read-bg: #f6f8fc;
+}
+
+body {
+  font-family: 'Google Sans', Roboto, Arial, sans-serif;
+  color: var(--gmail-text);
+  background: var(--gmail-bg);
+}
